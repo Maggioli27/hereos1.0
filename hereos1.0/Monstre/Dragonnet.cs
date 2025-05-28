@@ -13,7 +13,6 @@
 
         public override int Cuir { get; set; }
         // methode
-        //test
 
         public Dragonnet() : base("Dragonnet", Personnage.CalculerStatistique() + 1, Personnage.CalculerStatistique())
         {
@@ -22,5 +21,6 @@
             De de6 = new De(1, 6);
             Or = de6.Lance();
         }
+        //test
     }
 }
